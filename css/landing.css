@@ -1,0 +1,41 @@
+body, html {
+	margin: 0;
+	font-family: arial, helvetica, sans-serif;
+}
+
+.bg-image-1 {
+	background-image: url("../images/poelsemix_bg.png");
+	height: 1000px;
+}
+
+.bg-image-2 {
+	background-image: url("../images/bamse-og-kylling.jpg");
+	height: 680px;
+}
+
+.bg-image-1, .bg-image-2 {
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.inner {
+	text-align: center;
+	background-color:white;
+	margin: auto;
+	width: 50%;
+	
+}
+
+.inner h1 {
+	font-size: 34px;
+}
+
+.inner p {
+	font-size: 22px;
+	line-height: 36px;
+}
+
