@@ -1,3 +1,4 @@
+/* Starts fade in when window scrolled past scroll height */
 const fadeInOnScroll = (scroll_height, container) =>{
   let opacity = 0;
   let running = false;
@@ -11,5 +12,7 @@ const fadeInOnScroll = (scroll_height, container) =>{
         }
       }, 10);
     }
-  });    
-}
+  });
+};
+
+
