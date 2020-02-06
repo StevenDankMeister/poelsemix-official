@@ -24,10 +24,10 @@ body, html {
 
 .inner {
 	text-align: center;
-	background-color:white;
+	background-color: white;
 	margin: auto;
 	width: 50%;
-	
+  opacity: 0;
 }
 
 .inner h1 {
