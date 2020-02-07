@@ -12,6 +12,11 @@ const fadeInOnScroll = (scroll_height, container) =>{
         }
       }, 10);
     }
+	else if ($(window).scrollTop() < scroll_height -120 && opacity >= 0.01){
+		opacity = 0;
+          $(container).css("opacity", opacity);
+		 running = false
+	}
   });
 };
 
