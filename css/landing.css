@@ -33,46 +33,73 @@
 }
 
 
-body, html {
+body {
   margin: 0;
+  padding: 0;
   font-family: 'Radiance';
+  background-color: #295ca5;
+  color: white;
 }
 
-.bg-image-1 {
-  background-image: url("../images/poelsemix_bg.png");
-  height: 1000px;
-}
-
-.bg-image-2 {
-  background-image: url("../images/bamse-og-kylling.jpg");
-  height: 680px;
-}
-
-.bg-image-1, .bg-image-2 {
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
+.container {
   position: relative;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
-.inner {
-  text-align: center;
-  background-color: white;
-  margin: auto;
-  width: 40%;
-  opacity: 0;
-  color: #0E0E0F;
+.container img{
+  width: 100%;
+  display: block;
 }
 
-.inner h1 {
-  font-size: 34px;
-  font-family: 'Radiance-SemiBold';
-}
-
-.inner p {
+.container p {
   font-size: 22px;
   line-height: 36px;
+  text-shadow: 5px 2px 5px black;
 }
+
+.container h1 {
+  font-family: 'Radiance-SemiBold';
+  font-size: 34px;
+  text-shadow: 5px 5px 5px black;
+}
+
+#box-1 .inner {
+  position: absolute;
+  display: block;
+  top: 20%;
+  left: 50%;
+  width: 45%;
+  z-index: 999;
+}
+
+#bottom {
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+}
+
+#bottom-pic {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  vertical-align: middle;
+}
+
+.intro-box {
+  width: 100%;
+}
+
+#main-trailer {
+  width: 70vw;
+  height: 70vh;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 50px;
+}
+
+#intro-pic {
+  width: 100%;
+}
+
 
