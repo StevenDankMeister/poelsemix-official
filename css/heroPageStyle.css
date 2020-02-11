@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Radiance';
+    src: url('https://steamcdn-a.akamaihd.net/apps/dota2/fonts/radiance.eot');
+    src: url('https://steamcdn-a.akamaihd.net/apps/dota2/fonts/radiance.eot?#iefix') format('embedded-opentype'),
+    url('https://steamcdn-a.akamaihd.net/apps/dota2/fonts/radiance.woff') format('woff'),
+    url('https://steamcdn-a.akamaihd.net/apps/dota2/fonts/radiance.ttf') format('truetype'),
+    url('https://steamcdn-a.akamaihd.net/apps/dota2/fonts/radiance.svg#ywftsvg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Radiance-Bold';
+    src: url('https://steamcdn-a.akamaihd.net/apps/dota2/fonts/radiance-bold.eot');
+    src: url('https://steamcdn-a.akamaihd.net/apps/dota2/fonts/radiance-bold.eot?#iefix') format('embedded-opentype'),
+    url('https://steamcdn-a.akamaihd.net/apps/dota2/fonts/radiance-bold.woff') format('woff'),
+    url('https://steamcdn-a.akamaihd.net/apps/dota2/fonts/radiance-bold.ttf') format('truetype'),
+    url('https://steamcdn-a.akamaihd.net/apps/dota2/fonts/radiance-bold.svg#ywftsvg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Radiance-SemiBold';
+    src: url('https://steamcdn-a.akamaihd.net/apps/dota2/fonts/radiance-semibold.eot');
+    src: url('https://steamcdn-a.akamaihd.net/apps/dota2/fonts/radiance-semibold.eot?#iefix') format('embedded-opentype'),
+    url('https://steamcdn-a.akamaihd.net/apps/dota2/fonts/radiance-semibold.woff') format('woff'),
+    url('https://steamcdn-a.akamaihd.net/apps/dota2/fonts/radiance-semibold.ttf') format('truetype'),
+    url('https://steamcdn-a.akamaihd.net/apps/dota2/fonts/radiance-semibold.svg#ywftsvg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body {
+    font-family: "Radiance";
+    margin: 0;
+    padding: 0;
+    background-color: #295CA5;
+}
+
+#intro{
+    width: 100%;
+    margin:0; 
+    padding:0;
+    vertical-align: middle;
+}
+
+.intro_img {
+	opacity: 1;
+	width: 100%;
+    margin:0; 
+    padding:0;
+    vertical-align: middle;
+}
+
+#intro_h1{
+    font-family: "Radiance-Bold";
+    color: white;
+    font-size: 1000%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#intro_box{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding: 40px;
+    width: 40%;
+    background-color: #1D4377;
+}
+
+#intro_box_h1{
+    font-family: "Radiance-Bold";
+    text-align:center;
+    font-size: 500%;
+    padding-top: 0%;
+    margin: 0%;
+    color: white;
+}
+
+#intro_text{
+    text-align: center;
+    line-height: 135%;
+    font-size: 200%;
+    padding: 0%;
+    margin: 0%;
+    color: whitesmoke;
+}
+
+#end {
+    vertical-align: middle;
+    margin:0; 
+    padding:0;
+}
+
+.bottom_img {
+	opacity: 1;
+	width: 100%;
+    margin:0; 
+    padding:0;
+    position: absolute;
+    vertical-align: middle;
+}
