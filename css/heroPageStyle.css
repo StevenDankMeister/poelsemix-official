@@ -90,9 +90,12 @@ body {
     color: whitesmoke;
 }
 
-.hero_panel_right{
+.hero_panel{
     margin-top: 100px;
     display: block;
+    overflow: hidden;
+    border-style: dotted;
+    border-color: forestgreen;
 }
 
 .hero_box{
@@ -101,6 +104,24 @@ body {
     padding: 2%;
     margin-bottom: 0;
     display: flex;
+}
+.hero_box_right{
+    background-color: #1D4377;
+    width: 70rem;
+    padding: 2%;
+    margin-bottom: 0;
+    display: flex;
+    border-style: dashed;
+    border-color: blueviolet;
+    position: absolute;
+    right: 0;
+}
+.hero_img_left{
+    margin-bottom: 0px;
+    margin-left: 10%;
+    padding: 0px;
+    height: 30rem;
+    vertical-align: bottom;
 }
 
 .hero_img_right{
@@ -111,15 +132,8 @@ body {
     vertical-align: bottom;
 }
 
-.hero_img_left{
-    margin-bottom: 0px;
-    margin-left: 10%;
-    padding: 0px;
-    height: 30rem;
-    vertical-align: bottom;
-}
-
 .hero_info_div{
+    
 }
 
 .hero_h1{
@@ -147,6 +161,21 @@ body {
     position: relative;
     top: -50px;
     padding-bottom: 0.2rem;
+}
+.shitcontainer{
+    position: absolute;
+    right: 0;
+    border-style: groove;
+}
+
+.ability_box_right{
+    margin-top: 0;
+    background-color: rgb(10, 54, 114);
+    width: 40rem;
+    position: relative;
+    top: -50px;
+    padding-bottom: 0.2rem;
+    
 }
 
 .ability_h1{
