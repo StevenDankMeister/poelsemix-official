@@ -86,18 +86,11 @@ body {
   width: 45%;
 }
 
-#bottom {
-  vertical-align: middle;
-  margin: 0;
-  padding: 0;
-}
-
-#bottom-pic {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  position: absolute;
-  vertical-align: middle;
+#box-4 .inner {
+  top: 20%;
+  width: 50%;
+  left: 25%;
+  text-align: center;
 }
 
 .intro-box {
