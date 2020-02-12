@@ -90,6 +90,59 @@ body {
     color: whitesmoke;
 }
 
+.hero_panel{
+    margin-top: 100px;
+    display: block;
+}
+
+.hero_box{
+    background-color: #1D4377;
+    width: 60%;
+    padding: 0%;
+    margin-bottom: 0;
+    border: 
+}
+
+.hero_img{
+    margin-bottom: 0px;
+    padding: 0px;
+    height: 500px;
+    vertical-align: bottom;
+}
+
+.ability_box{
+    margin-top: 0px;
+    margin-left: 10%;
+    background-color: rgb(10, 54, 114);
+    border-style: solid;
+    border-width: 5px;
+    padding: 0;
+    width: 80%;
+}
+
+.ability_h1{
+    font-family: "Radiance-Bold";
+    font-size: 300%;
+    color: white;
+    display: block;
+    margin: 0%; 
+    margin-left: 10px;
+}
+
+.ability_icons_div{
+    font-family: "Radiance-Bold";
+    font-size: 300%;
+    color: white;
+    display: block;
+    margin: 1%; 
+}
+
+.ability_icon{
+    vertical-align: center;
+    width: 128px;
+    margin-left: 20px;
+}
+
 #end {
     vertical-align: middle;
     margin:0; 
