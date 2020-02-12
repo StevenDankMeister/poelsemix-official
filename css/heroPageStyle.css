@@ -90,34 +90,63 @@ body {
     color: whitesmoke;
 }
 
-.hero_panel{
+.hero_panel_right{
     margin-top: 100px;
     display: block;
 }
 
 .hero_box{
     background-color: #1D4377;
-    width: 60%;
-    padding: 0%;
+    width: 70rem;
+    padding: 2%;
     margin-bottom: 0;
-    border: 
+    display: flex;
 }
 
-.hero_img{
+.hero_img_right{
     margin-bottom: 0px;
+    margin-left: 10%;
     padding: 0px;
-    height: 500px;
+    height: 30rem;
     vertical-align: bottom;
 }
 
-.ability_box{
-    margin-top: 0px;
+.hero_img_left{
+    margin-bottom: 0px;
     margin-left: 10%;
+    padding: 0px;
+    height: 30rem;
+    vertical-align: bottom;
+}
+
+.hero_info_div{
+}
+
+.hero_h1{
+    font-family: "Radiance-Bold";
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.hero_p{
+    font-family: "Radiance";
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+    color: white;
+    text-align: center;
+    margin: 1rem;
+}
+
+.ability_box{
+    margin-top: 0;
+    margin-left:5%;
     background-color: rgb(10, 54, 114);
-    border-style: solid;
-    border-width: 5px;
-    padding: 0;
-    width: 80%;
+    width: 40rem;
+    position: relative;
+    top: -50px;
+    padding-bottom: 0.2rem;
 }
 
 .ability_h1{
@@ -133,14 +162,14 @@ body {
     font-family: "Radiance-Bold";
     font-size: 300%;
     color: white;
-    display: block;
-    margin: 1%; 
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
 }
 
 .ability_icon{
-    vertical-align: center;
+    vertical-align: middle;
     width: 128px;
-    margin-left: 20px;
 }
 
 #end {
