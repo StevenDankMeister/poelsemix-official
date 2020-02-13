@@ -32,7 +32,6 @@
   font-style: normal;
 }
 
-
 body {
   margin: 0;
   padding: 0;
@@ -40,32 +39,66 @@ body {
   background-color: #295ca5;
   color: white;
 }
+
+#slidebox {
+  background-image: url("../images/poelsemix_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  overflow: hidden;
+}
+
+#carousel {
+  max-width: 60%;
+  margin: 5% auto 0;
+}
+
+.slider-for {
+  background-color: black;
+  box-shadow: 0px 3px 12px 0px black;
+}
+
+.slider-nav {
+  margin: 5% 0;
+  width: 100%;
+}
+
+.slider-nav .slick-current {
+  outline: 3px solid turquoise;
+  outline-offset: -3px;
+}
+
+.slider-nav img {
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+/* Slideshow ting som ikke er done men brugte for meget tid paa det, saa sletter det ikke */
+
+/*
+.slideshow {
+  background-image: url("https://steamcdn-a.akamaihd.net/apps/dota2/images/blog/play/bg_07.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .slideshow-box {
   position: relative;
   overflow: hidden;
   width: 1080px;
-  height: 608px; 
-  left: 2em;
+  height: 608px;
+  margin: 0 auto;
 }
 
-/*<img src="https://steamcdn-a.akamaihd.net/apps/dota2/images/blog/play/bg_07.jpg" style="width: 100%;">*/
-
-#box {
+#grid {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns:auto auto auto;
+  position: relative;
+  left: 0%;
+  top: 0%;
 }
-
-/*.slide {
-  width: 200%;
-  font-size: 0;
-  position: absolute;
-  left: 25%;
-  top: 20%;
-}*/
-
-.slide img {
-  vertical-align: left;
-}
+*/
 
 .container {
   position: relative;

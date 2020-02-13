@@ -1,77 +1,137 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/landing.css">
-    <title>Poelsemix</title>
-  </head>
-  <body>
-   
-    <p>Test</p><p>Test</p><p>Test</p><p>Test</p><p>Test</p><p>Test</p><p>Test</p><p>Test</p>
-    <img src="images/cover-temp.png" id="intro-pic">
-    
-    <div id="intro-box" class="container">
-      <iframe id="main-trailer" src="https://www.youtube.com/embed/h_pHfflicM0" frameborder="0"></iframe>
-    </div>
-    
-    <div id="box-1" class="container">
-      <img src="images/bg_04.jpg">
-      <div class="inner">
-        <h1>The most-played game on Steam.</h1>
-        <p>
-          The fans, they cry, they scream. With its billions of players, Poelsemix is the most succesful <abbr title="Aeon of Strife Styled Fortress Assault Game Going On Two Sides">ASSFAGGOTS</abbr>
-          with thousands of (promised) characters.
-          No matter if it's your first time playing or you've been playing for millions of hours, Poelsemix continues to be
-          a game of interdimensional scale and depth. Regular updates ensure that Poelsemix keeps growing and continues to dominate the gaming market.
-        </p>
-      </div>
-    </div>
-    
-    <div id="box-2" class="container">
-      <img src="images/kaj-andrea-bg.png">
-      <div class="inner">
-        <h1>An infinite battlefield.</h1>
-        <p>Other games in the genre pretend to have 'Depth' or 'Diversity', but no game does it better than Poelsemix. 
-           Poelsemix is not a game where you get played, it is a game where <em>you</em> play. With no enforced tactics, the game is yours to conquer.
-           Play any hero you want, how you want — only creativity sets the limit. Poelsemix is endless.
-        </p>
-      </div>
-    </div>
 
-    <div id="box-3" class="container">
-      <img src="images/marvelous.png">
-      <div class="inner">
-        <h1>Free forever.</h1>
-        <p>No one wants to pay for heroes, that would be stupid. It is only logical that all heroes are free — even before playing a single game — to even the playing field.
-           All future updates and heroes are and will forever be free, no catch. No saving for five years to finally own the entire roster. In Poelsemix, buyer's remorse does not exist.
-           Taking a break? No worries. Everything is still free.
-        </p>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/landing.css">
+
+  <!-- Slick imports -->
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <!-- <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/> -->
+
+  <title>Poelsemix</title>
+</head>
+
+<body>
+  <p>Test</p>
+  <p>Test</p>
+  <p>Test</p>
+  <p>Test</p>
+  <p>Test</p>
+  <p>Test</p>
+  <p>Test</p>
+  <p>Test</p>
+
+  <img src="images/cover-temp.png" id="intro-pic">
+
+  <div id="intro-box" class="container">
+    <iframe id="main-trailer" src="https://www.youtube.com/embed/h_pHfflicM0" frameborder="0"></iframe>
+  </div>
+
+  <div id="box-1" class="container">
+    <img src="images/bg_04.jpg">
+    <div class="inner">
+      <h1>The most-played game on Steam.</h1>
+      <p>
+        The fans, they cry, they scream. With its billions of players, Poelsemix is the most succesful <abbr
+          title="Aeon of Strife Styled Fortress Assault Game Going On Two Sides">ASSFAGGOTS</abbr>
+        with thousands of (promised) characters.
+        No matter if it's your first time playing or you've been playing for millions of hours, Poelsemix continues to
+        be
+        a game of interdimensional scale and depth. Regular updates ensure that Poelsemix keeps growing and continues to
+        dominate the gaming market.
+      </p>
+    </div>
+  </div>
+
+  <div id="box-2" class="container">
+    <img src="images/kaj-andrea-bg.png">
+    <div class="inner">
+      <h1>An infinite battlefield.</h1>
+      <p>Other games in the genre pretend to have 'Depth' or 'Diversity', but no game does it better than Poelsemix.
+        Poelsemix is not a game where you get played, it is a game where <em>you</em> play. With no enforced tactics,
+        the game is yours to conquer.
+        Play any hero you want, how you want — only creativity sets the limit. Poelsemix is endless.
+      </p>
+    </div>
+  </div>
+
+  <div id="box-3" class="container">
+    <img src="images/marvelous.png">
+    <div class="inner">
+      <h1>Free forever.</h1>
+      <p>No one wants to pay for heroes, that would be stupid. It is only logical that all heroes are free — even before
+        playing a single game — to even the playing field.
+        All future updates and heroes are and will forever be free, no catch. No saving for five years to finally own
+        the entire roster. In Poelsemix, buyer's remorse does not exist.
+        Taking a break? No worries. Everything is still free.
+      </p>
+    </div>
+  </div>
+
+  <div id="slidebox">
+    <div id="carousel">
+      <div class="slider-for" dir="ltr">
+        <img src="images/screenshot_05.jpg">
+        <img src="images/screenshot_06.jpg">
+        <img src="images/screenshot_07.jpg">
+        <img src="images/screenshot_05.jpg">
+        <img src="images/screenshot_06.jpg">
+      </div>
+
+      <div class="slider-nav">
+        <img src="images/screenshot_05.jpg">
+        <img src="images/screenshot_06.jpg">
+        <img src="images/screenshot_07.jpg">
+        <img src="images/screenshot_05.jpg">
+        <img src="images/screenshot_06.jpg">
       </div>
     </div>
+  </div>
 
+
+  <!-- Slideshow ting som ikke er done men brugte for meget tid paa det, saa sletter det ikke -->
+  <!-- <div class="slideshow">
     <div class="slideshow-box">
-      <div id="box">
+      <div id="grid">
+        
         <div id="img1">
           <img src="images/screenshot_05.jpg">
         </div>
-      
+
         <div id="img2">
           <img src="images/screenshot_06.jpg">
         </div>
-     
+
         <div id="img3">
           <img src="images/screenshot_07.jpg">
         </div>
+
       </div>
     </div>
+  </div> -->
 
-    <div id="box-4" class="container">
-      <img src="images/poelsemix_bg_shadowbox.png">
-      <div class="inner">
-        <h1>Bring your friends to the barbeque!</h1>
-        <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.<br>Lorem ipsum may be used before final copy is available, but it may also be used to temporarily replace copy in a process called greeking, which allows designers to consider form without the meaning of the text influencing the design.</p>
-      </div>
+  <div id="box-4" class="container">
+    <img src="images/poelsemix_bg_shadowbox.png">
+    <div class="inner">
+      <h1>Bring your friends to the barbeque!</h1>
+      <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual
+        form of a document or a typeface without relying on meaningful content.<br>Lorem ipsum may be used before final
+        copy is available, but it may also be used to temporarily replace copy in a process called greeking, which
+        allows designers to consider form without the meaning of the text influencing the design.</p>
     </div>
-  </body> 
-</html> 
+  </div>
 
+  <!-- jquery -->
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <!-- slick -->
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script type="text/javascript" src="scripts/slideshow.js"></script>
+
+  <script>
+    createSlideShow();
+  </script>
+</body>
+
+</html>
