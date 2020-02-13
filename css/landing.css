@@ -40,6 +40,32 @@ body {
   background-color: #295ca5;
   color: white;
 }
+.slideshow-box {
+  position: relative;
+  overflow: hidden;
+  width: 1080px;
+  height: 608px; 
+  left: 2em;
+}
+
+/*<img src="https://steamcdn-a.akamaihd.net/apps/dota2/images/blog/play/bg_07.jpg" style="width: 100%;">*/
+
+#box {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+/*.slide {
+  width: 200%;
+  font-size: 0;
+  position: absolute;
+  left: 25%;
+  top: 20%;
+}*/
+
+.slide img {
+  vertical-align: left;
+}
 
 .container {
   position: relative;
