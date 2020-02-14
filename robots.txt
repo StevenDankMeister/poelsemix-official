@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /being/nongamer/
+Allow: /being/gay
