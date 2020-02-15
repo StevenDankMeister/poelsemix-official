@@ -228,6 +228,7 @@ body {
     filter:saturate(2);
     vertical-align: middle;
     width: 128px;
+    padding: 5px;
 }
 
 #end {
