@@ -60,6 +60,7 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+    text-shadow: 10px 10px 10px black;
 }
 
 #intro_box{
@@ -79,6 +80,7 @@ body {
     padding-top: 0%;
     margin: 0%;
     color: white;
+    text-shadow: 5px 5px 5px black;
 }
 
 #intro_text{
@@ -135,6 +137,8 @@ body {
     margin-left: 10%;
     padding: 0px;
     height: 30rem;
+    width: 30rem;
+    width: auto;
     vertical-align: bottom;
 }
 
@@ -143,6 +147,7 @@ body {
     margin-right: 10%;
     padding: 0px;
     height: 30rem;
+    width: 30rem;
     vertical-align: bottom;
 }
 
@@ -156,6 +161,7 @@ body {
     color: white;
     text-align: center;
     margin: 0;
+    text-shadow: 5px 5px 5px black;
 }
 
 .hero_p{
@@ -175,6 +181,7 @@ body {
     position: relative;
     top: -50px;
     padding-bottom: 0.2rem;
+    box-shadow: #000000 3px 3px 30px;
 }
 
 .ability_box_right{
@@ -186,6 +193,7 @@ body {
     position: relative;
     top: -50px;
     padding-bottom: 0.2rem;
+    box-shadow: #000000 3px 3px 30px;
 }
 
 .ability_box_right{
@@ -217,6 +225,7 @@ body {
 }
 
 .ability_icon{
+    filter:saturate(2);
     vertical-align: middle;
     width: 128px;
 }
