@@ -41,10 +41,10 @@ body {
 }
 
 #slidebox {
-  background-image: url("../images/poelsemix_bg.png");
+  background-image: url("../images/gradient_back.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top center;
+  background-position: bottom;
   overflow: hidden;
 }
 
@@ -64,13 +64,44 @@ body {
 }
 
 .slider-nav .slick-current {
-  outline: 3px solid turquoise;
+  outline: 3px solid rgb(168, 25, 82);
   outline-offset: -3px;
 }
 
 .slider-nav img {
   margin-right: 2px;
   margin-left: 2px;
+}
+
+.slick-prev,
+.slick-next
+{
+  position: absolute;
+  display: block;
+
+  top: 50%;
+	-webkit-transform: translate(0, -50%);
+	-ms-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+  cursor: pointer;
+
+  width: 52px;
+  height: 52px;
+
+  color: transparent;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.slick-prev {
+  background-image: url("../images/circle_arrow_left.png");
+  left: -10%;
+}
+
+.slick-next {
+  background-image: url("../images/circle_arrow_right.png");
+  right: -10%;
 }
 
 /* Slideshow ting som ikke er done men brugte for meget tid paa det, saa sletter det ikke */
