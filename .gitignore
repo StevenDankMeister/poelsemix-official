@@ -2,3 +2,17 @@
 \#*\#
 .\#*
 .vscode/settings.json
+
+slick/fonts/slick.woff
+slick/fonts/slick.ttf
+slick/fonts/slick.svg
+slick/fonts/slick.eot
+slick/slick.scss
+slick/slick.less
+slick/slick.js
+slick/slick-theme.scss
+slick/slick-theme.less
+slick/slick-theme.css
+slick/config.rb
+slick/ajax-loader.gif
+slick-1.8.1.zip

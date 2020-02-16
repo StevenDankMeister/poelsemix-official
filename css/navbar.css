@@ -1,0 +1,61 @@
+#PlayNowButton {
+  background-color: rgb(27, 6, 14);
+  border: 2px solid rgb(168, 25, 82);
+  padding: 8px 8px;
+  letter-spacing: 3px;
+  float: right;
+  width: 150px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#PlayNowButton:hover {
+  background-color: rgb(49, 11, 26);
+}
+
+#navbar a {
+  text-decoration: none;
+  color: rgb(168, 25, 82);
+  letter-spacing: 3px;
+}
+
+#navbar a:visited {
+  color: rgb(168, 25, 82);
+}
+
+#navbar {
+  background-image: url("../images/navbackground.png");
+  width: 100%;
+  overflow: hidden;
+  z-index: 999;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+#thebar {
+  margin: 0 20%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.navitem {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+}
+
+.navseperator {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: rgb(51, 12, 27);
+}
+
+#navbarlogo {
+  opacity: 0.75;
+}
+
+#navbarlogo:hover {
+  opacity: 1;
+}
