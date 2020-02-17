@@ -50,6 +50,7 @@ body {
 .inner figure li {
   font-size: 1.1em;
   line-height: 30px;
+  color: #999;
 }
 
 .inner figure ul {
@@ -69,7 +70,12 @@ body {
 }
 
 .overhead h1 {
-  background-color: red;
+  background: linear-gradient(to right, rgba(255,102,0,0.56) 0%,rgba(255,102,0,0.56) 1%,rgba(237,59,28,0.56) 100%);
   padding: 5px 5px;
+  letter-spacing: 2px;
+}
+
+.newitemcolor {
+  color: orange;
 }
 
