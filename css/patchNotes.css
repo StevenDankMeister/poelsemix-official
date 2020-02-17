@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Radiance';
+  src: url('https://steamcdn-a.akamaihd.net/apps/dota2/fonts/radiance.eot');
+  src: url('https://steamcdn-a.akamaihd.net/apps/dota2/fonts/radiance.eot?#iefix') format('embedded-opentype'),
+  url('https://steamcdn-a.akamaihd.net/apps/dota2/fonts/radiance.woff') format('woff'),
+  url('https://steamcdn-a.akamaihd.net/apps/dota2/fonts/radiance.ttf') format('truetype'),
+  url('https://steamcdn-a.akamaihd.net/apps/dota2/fonts/radiance.svg#ywftsvg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Radiance-Bold';
+  src: url('https://steamcdn-a.akamaihd.net/apps/dota2/fonts/radiance-bold.eot');
+  src: url('https://steamcdn-a.akamaihd.net/apps/dota2/fonts/radiance-bold.eot?#iefix') format('embedded-opentype'),
+  url('https://steamcdn-a.akamaihd.net/apps/dota2/fonts/radiance-bold.woff') format('woff'),
+  url('https://steamcdn-a.akamaihd.net/apps/dota2/fonts/radiance-bold.ttf') format('truetype'),
+  url('https://steamcdn-a.akamaihd.net/apps/dota2/fonts/radiance-bold.svg#ywftsvg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Radiance-SemiBold';
+  src: url('https://steamcdn-a.akamaihd.net/apps/dota2/fonts/radiance-semibold.eot');
+  src: url('https://steamcdn-a.akamaihd.net/apps/dota2/fonts/radiance-semibold.eot?#iefix') format('embedded-opentype'),
+  url('https://steamcdn-a.akamaihd.net/apps/dota2/fonts/radiance-semibold.woff') format('woff'),
+  url('https://steamcdn-a.akamaihd.net/apps/dota2/fonts/radiance-semibold.ttf') format('truetype'),
+  url('https://steamcdn-a.akamaihd.net/apps/dota2/fonts/radiance-semibold.svg#ywftsvg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Radiance';
+  color: white;
+  font-size: 15px;
+  margin: 0;
+  background-image: url('http://cdn.dota2.com/apps/dota2/images/700/gameplay/bg_repeater.jpg');
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position: top center;
+}
+
+.inner figure h1 {
+  font-size: 1.2em;
+  opacity: 1;
+}
+
+.inner figure li {
+  font-size: 1.1em;
+  line-height: 30px;
+}
+
+.inner figure ul {
+  list-style-position: inside;
+  padding-left: 0px;
+}
+
+.inner figure {
+  margin: 10px 25%;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 25px 25px;
+}
+
+.overhead {
+  margin: 0 25%;
+  display: inline-block;
+}
+
+.overhead h1 {
+  background-color: red;
+  padding: 5px 5px;
+}
+
