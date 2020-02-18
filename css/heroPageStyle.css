@@ -35,14 +35,17 @@ body {
     font-family: "Radiance";
     margin: 0;
     padding: 0;
+    background-color: rgba(41,92,165,1);
     /*background-color: #295CA5;*/
 }
 
 #intro{
     width: 100%;
-    margin:0; 
+    margin:0;
+    margin-top: 0;
     padding:0;
     vertical-align: middle;
+    padding-bottom: 100px;
 }
 
 .intro_img {
@@ -68,6 +71,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
+    margin-bottom: 50px;
     padding: 40px;
     width: 40%;
     background-color: #1D4377;
@@ -90,6 +94,7 @@ body {
     padding: 0%;
     margin: 0%;
     color: whitesmoke;
+
 }
 
 #containter_second_heroes{
@@ -133,13 +138,19 @@ body {
     margin: 0%;
     color: white;
     text-shadow: 5px 5px 5px black;
-    background: linear-gradient(0deg, rgba(0,186,21,1) 0%, rgba(0,0,0,1)  100%);
+    background: linear-gradient(0deg, rgba(0,186,21,1) 0%, rgba(41,92,165,1)  100%);
 }
 
-#first_heroes_sep{
+#first_heroes_sep_top{
     height: 100px;
     background: rgb(0,0,0);
     background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(41,92,165,1) 100%);
+}
+
+#first_heroes_sep_bot{
+    height: 100px;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(41,92,165,1) 0%, rgba(0,0,0,0) 100%);
 }
 
 #second_heroes_sep_bot{
@@ -290,5 +301,4 @@ body {
     padding:0;
     position: absolute;
     vertical-align: middle;
-    box-shadow: black 15px 15px 15px 15px;
 }
