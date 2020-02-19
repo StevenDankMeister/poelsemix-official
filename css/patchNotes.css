@@ -54,14 +54,14 @@ body {
 }
 
 .inner figure ul {
-  list-style-position: inside;
+  list-style-position: outside;
   padding-left: 0px;
 }
 
 .inner figure {
   margin: 10px 25%;
   background: rgba(0, 0, 0, 0.5);
-  padding: 25px 25px;
+  padding: 35px 40px;
 }
 
 .overhead {
