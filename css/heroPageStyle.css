@@ -97,7 +97,43 @@ body {
 
 }
 
-#containter_second_heroes{
+/*third heroes */
+#container_third_heroes{
+    background-image: url("../images/aa_tårn.png");
+    background-size: 100%;
+    background-attachment: fixed;
+    /* background-position: bottom; */
+    background-repeat: no-repeat;
+    /*box-shadow: 5px 5px #000000;*/
+    background-color: black;
+    overflow: hidden;
+}
+
+#third_heroes_sep_h1{
+    font-family: "Radiance-Bold";
+    text-align:center;
+    font-size: 750%;
+    padding-top: 0%;
+    margin: 0%;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    background: linear-gradient(0deg, rgba(255,106,0, 1) 0%, rgba(41,92,165,1) 100%)
+}
+
+#third_heroes_sep_bot{
+    height: 100px;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(255,106,0, 1) 100%);
+}
+#third_heroes_sep_top{
+    height: 100px;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(255,106,0, 1) 0%, rgba(0,0,0,0) 100%);}
+
+
+
+/*second heroes */
+#container_second_heroes{
     background-image: url("../images/skåne.png");
     background-size: 100%;
     background-attachment: fixed;
@@ -108,7 +144,29 @@ body {
     overflow: hidden;
 }
 
-#containter_first_heroes{
+#second_heroes_sep_h1{
+    font-family: "Radiance-Bold";
+    text-align:center;
+    font-size: 750%;
+    padding-top: 0%;
+    margin: 0%;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    background: linear-gradient(0deg, rgba(0,186,21,1) 0%, rgba(255,106,0, 1)  100%);
+}
+
+#second_heroes_sep_bot{
+    height: 100px;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,186,21,1) 100%);
+}
+#second_heroes_sep_top{
+    height: 100px;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,186,21,1) 0%, rgba(0,0,0,0) 100%);}
+
+/*first heroes */
+#container_first_heroes{
     background-image: url("../images/first_heroes_bg.png");
     background-size: 100%;
     background-attachment: fixed;
@@ -130,16 +188,7 @@ body {
     background: linear-gradient(0deg, rgba(41,92,165,1) 0%, rgba(0,186,21,1) 100%);
 }
 
-#second_heroes_sep_h1{
-    font-family: "Radiance-Bold";
-    text-align:center;
-    font-size: 750%;
-    padding-top: 0%;
-    margin: 0%;
-    color: white;
-    text-shadow: 5px 5px 5px black;
-    background: linear-gradient(0deg, rgba(0,186,21,1) 0%, rgba(41,92,165,1)  100%);
-}
+
 
 #first_heroes_sep_top{
     height: 100px;
@@ -153,15 +202,7 @@ body {
     background: linear-gradient(0deg, rgba(41,92,165,1) 0%, rgba(0,0,0,0) 100%);
 }
 
-#second_heroes_sep_bot{
-    height: 100px;
-    background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,186,21,1) 100%);
-}
-#second_heroes_sep_top{
-    height: 100px;
-    background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,186,21,1) 0%, rgba(0,0,0,0) 100%);}
+
 .hero_panel{
     margin-top: 10px;
     display: flex;
