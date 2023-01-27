@@ -97,6 +97,77 @@ body {
 
 }
 
+/*society pack */
+#container_society_heroes{
+    background-image: url("../images/folketingssalen.png");
+    background-size: 100%;
+    background-attachment: fixed;
+    /* background-position: bottom; */
+    background-repeat: no-repeat;
+    /*box-shadow: 5px 5px #000000;*/
+    background-color: black;
+    overflow: hidden;
+}
+
+#society_heroes_sep_h1{
+    font-family: "Radiance-Bold";
+    text-align:center;
+    font-size: 750%;
+    padding-top: 0%;
+    margin: 0%;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    background: linear-gradient(0deg, rgba(211,179,58, 1) 0%, rgba(41,92,165,1) 100%)
+}
+
+#society_heroes_sep_bot{
+    height: 100px;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(211,179,58, 1) 100%);
+}
+#society_heroes_sep_top{
+    height: 100px;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(211,179,58, 1) 0%, rgba(0,0,0,0) 100%);}
+
+
+/*propechy */
+#container_hacker_heroes{
+    background-image: url("../images/hacker.png");
+    background-size: 100%;
+    background-attachment: fixed;
+    /* background-position: bottom; */
+    background-repeat: no-repeat;
+    /*box-shadow: 5px 5px #000000;*/
+    background-color: black;
+    overflow: hidden;
+}
+
+#hacker_heroes_sep_h1{
+    font-family: "Radiance-Bold";
+    text-align:center;
+    font-size: 750%;
+    padding-top: 0%;
+    margin: 0%;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    background: linear-gradient(0deg, rgba(10,10,10, 1) 0%, rgba(211,179,58, 1) 100%)
+}
+
+#hacker_heroes_sep_bot{
+    height: 100px;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(10,10,10, 1) 100%);
+}
+#hacker_heroes_sep_top{
+    height: 100px;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(10,10,10, 1) 0%, rgba(0,0,0,0) 100%);}
+
+
+
+
+
 /*third heroes */
 #container_third_heroes{
     background-image: url("../images/aa_tårn.png");
@@ -117,7 +188,7 @@ body {
     margin: 0%;
     color: white;
     text-shadow: 5px 5px 5px black;
-    background: linear-gradient(0deg, rgba(255,106,0, 1) 0%, rgba(41,92,165,1) 100%)
+    background: linear-gradient(0deg, rgba(255,106,0, 1) 0%, rgba(10,10,10,1) 100%)
 }
 
 #third_heroes_sep_bot{
