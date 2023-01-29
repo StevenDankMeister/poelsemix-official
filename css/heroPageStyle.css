@@ -95,7 +95,150 @@ body {
     margin: 0%;
     color: whitesmoke;
 
+
 }
+
+/*genfoedt*/
+#container_genfoedt_heroes{
+    background-image: url("../images/shadow.png");
+    background-size: 100%;
+    background-attachment: fixed;
+    /* background-position: bottom; */
+    background-repeat: no-repeat;
+    /*box-shadow: 5px 5px #000000;*/
+    background-color: black;
+    overflow: hidden;
+}
+
+#genfoedt_heroes_sep_h1{
+    font-family: "Radiance-Bold";
+    text-align:center;
+    font-size: 750%;
+    padding-top: 0%;
+    margin: 0%;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    background: linear-gradient(0deg, rgba(127,0,0,1) 0%, rgba(41,92,165,1) 100%)
+}
+
+#genfoedt_heroes_sep_bot{
+    height: 100px;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(127,0,0,1) 100%);
+}
+#genfoedt_heroes_sep_top{
+    height: 100px;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(127,0,0,1) 0%, rgba(0,0,0,0) 100%);}
+
+
+/*failed revival*/
+#container_failed_heroes{
+    background-image: url("../images/track.png");
+    background-size: 100%;
+    background-attachment: fixed;
+    /* background-position: bottom; */
+    background-repeat: no-repeat;
+    /*box-shadow: 5px 5px #000000;*/
+    background-color: black;
+    overflow: hidden;
+}
+
+#failed_heroes_sep_h1{
+    font-family: "Radiance-Bold";
+    text-align:center;
+    font-size: 750%;
+    padding-top: 0%;
+    margin: 0%;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    background: linear-gradient(0deg, rgba(64,64,64,1) 0%, rgba(127,0,0,1) 100%)
+}
+
+#failed_heroes_sep_bot{
+    height: 100px;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(64,64,64,1) 100%);
+}
+#failed_heroes_sep_top{
+    height: 100px;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(64,64,64,1) 0%, rgba(0,0,0,0) 100%);}
+
+
+
+
+
+/*teemo*/
+#container_teemo_heroes{
+    background-image: url("../images/teemo.png");
+    background-size: 100%;
+    background-attachment: fixed;
+    /* background-position: bottom; */
+    background-repeat: no-repeat;
+    /*box-shadow: 5px 5px #000000;*/
+    background-color: black;
+    overflow: hidden;
+}
+
+#teemo_heroes_sep_h1{
+    font-family: "Radiance-Bold";
+    text-align:center;
+    font-size: 750%;
+    padding-top: 0%;
+    margin: 0%;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    background: linear-gradient(0deg, rgba(0,127,14,1) 0%, rgba(64,64,64,1) 100%)
+}
+
+#teemo_heroes_sep_bot{
+    height: 100px;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,127,14,1) 100%);
+}
+#teemo_heroes_sep_top{
+    height: 100px;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,127,14,1) 0%, rgba(0,0,0,0) 100%);}
+
+
+
+/*model shima and urgot */
+#container_model_heroes{
+    background-image: url("../images/boaty.png");
+    background-size: 100%;
+    background-attachment: fixed;
+    /* background-position: bottom; */
+    background-repeat: no-repeat;
+    /*box-shadow: 5px 5px #000000;*/
+    background-color: black;
+    overflow: hidden;
+}
+
+#model_heroes_sep_h1{
+    font-family: "Radiance-Bold";
+    text-align:center;
+    font-size: 750%;
+    padding-top: 0%;
+    margin: 0%;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    background: linear-gradient(0deg, rgba(40,40,40, 1) 0%, rgba(0,127,14,1) 100%)
+}
+
+#model_heroes_sep_bot{
+    height: 100px;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(40,40,40, 1) 100%);
+}
+#model_heroes_sep_top{
+    height: 100px;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(40,40,40, 1) 0%, rgba(0,0,0,0) 100%);}
+
+
+
 
 /*Gammel Dansk Harald */
 #container_harald_heroes{
@@ -117,7 +260,7 @@ body {
     margin: 0%;
     color: white;
     text-shadow: 5px 5px 5px black;
-    background: linear-gradient(0deg, rgba(127,51,0, 1) 0%, rgba(41,92,165,1) 100%)
+    background: linear-gradient(0deg, rgba(127,51,0, 1) 0%, rgba(40,40,40,1) 100%)
 }
 
 #harald_heroes_sep_bot{
