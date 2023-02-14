@@ -42,9 +42,26 @@ body {
   background-position: top center;
 }
 
-.inner figure h1 {
+.inner figure h1 { /*ability and item name text */
   font-size: 1.2em;
   opacity: 1;
+  vertical-align: text-top;
+}
+.inner figure h2 { /*description text abilies and the like */
+  font-size: 1.1em;
+  opacity: 1;
+  color: #999;
+  vertical-align: text-top;
+  
+}
+
+.inner figure h3 { /*for heroes */
+  font-size: 250%;
+  opacity: 1;
+  margin-left: 25px;
+  vertical-align: middle;
+  text-align: center;
+  
 }
 
 .inner figure li {
@@ -67,15 +84,66 @@ body {
 .overhead {
   margin: 0 25%;
   display: inline-block;
-}
 
+
+}
 .overhead h1 {
   background: linear-gradient(to right, rgba(255,102,0,0.56) 0%,rgba(255,102,0,0.56) 1%,rgba(237,59,28,0.56) 100%);
   padding: 5px 5px;
   letter-spacing: 2px;
+  text-shadow: 2px 2px 2px black;
+}
+
+.patch_name {
+  margin: 0px 25%;
+  vertical-align: middle;
+}
+.patch_name h1 {
+  background: linear-gradient(to right, rgba(255,50,0,0.56) 0%,rgba(255,50,0,0.56) 1%,rgba(237,0,28,0.56) 100%);
+  padding: 10x 10px;
+  letter-spacing: 20px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 500%;
+  text-shadow: 10px 10px 10px black;
 }
 
 .newitemcolor {
   color: orange;
+}
+
+.content_box_for_image{
+  position: relative;
+  width: 70rem;
+  padding: 0%;
+  margin-bottom: 0;
+  display: flex;
+}
+.content_box_actual_image_item{
+  margin-bottom: 0px;
+  margin-right: 10px;
+  padding: 0px;
+  height: 64px;
+  width: 86px;
+  width: auto;
+  vertical-align: top;
+}
+.content_box_actual_image_ability{
+  margin-bottom: 0px;
+  margin-right: 10px;
+  padding: 0px;
+  height: 64px;
+  width: 64px;
+  width: auto;
+  vertical-align: top;
+}
+.content_box_actual_image_hero{
+  margin-bottom: 0px;
+  margin-right: 10px;
+  padding: 0px;
+  height: 272px;
+  width: 234px;
+  width: auto;
+  vertical-align: top
 }
 
