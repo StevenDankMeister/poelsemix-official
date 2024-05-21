@@ -99,9 +99,9 @@ body {
 }
 
 
-/*Unused 2*/
-#container_regrilled2_heroes{
-    background-image: url("../images/batch2.png");
+/*reborn unnamedpatch*/
+#container_reborn_heroes{
+    background-image: url("../images/reborn.png");
     background-size: 100%;
     background-attachment: fixed;
     /* background-position: bottom; */
@@ -111,7 +111,7 @@ body {
     overflow: hidden;
 }
 
-#regrilled2_heroes_sep_h1{
+#reborn_heroes_sep_h1{
     font-family: "Radiance-Bold";
     text-align:center;
     font-size: 750%;
@@ -119,18 +119,18 @@ body {
     margin: 0%;
     color: white;
     text-shadow: 5px 5px 5px black;
-    background: linear-gradient(0deg, rgba(64,64,64,1) 0%, rgba(41,92,165,1) 100%)
+    background: linear-gradient(0deg, rgba(0,127,70,1) 0%, rgba(41,92,165,1) 100%)
 }
 
-#regrilled2_heroes_sep_bot{
+#reborn_heroes_sep_bot{
     height: 100px;
     background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(64,64,64,1) 100%);
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,127,70,1) 100%);
 }
-#regrilled2_heroes_sep_top{
+#reborn_heroes_sep_top{
     height: 100px;
     background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(64,64,64,1) 0%, rgba(0,0,0,0) 100%);}
+    background: linear-gradient(180deg, rgba(0,127,70,1) 0%, rgba(0,0,0,0) 100%);}
 
 
 
@@ -155,7 +155,7 @@ body {
     margin: 0%;
     color: white;
     text-shadow: 5px 5px 5px black;
-    background: linear-gradient(0deg, rgba(10,10,10,1) 0%, rgba(41,92,165,1) 100%)
+    background: linear-gradient(0deg, rgba(10,10,10,1) 0%, rgba(0,127,70,1) 100%)
 }
 
 #kazuya_heroes_sep_bot{
