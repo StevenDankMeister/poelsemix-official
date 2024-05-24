@@ -1624,7 +1624,7 @@
           <h1>First hotfix wave</h1>
           <ul>
             <li>3v3v3v3 kills to win 35 -> 50</li>
-            <li>XP aura global 6 -> 9, inner circle 16 -> 13 (same xp just spread out more)</li>
+            <li>XP aura global 6 -> 9, semi inner circle 16 -> 13 (same xp just spread out more)</li>
             <li>Bans enabled and max players 12 (as it should be)</li>
             <li>Minions (objective): slightly easier to kill</li>
             <li>Center of poelsemix 3v3v3v3 lowered and fixed pathing</li>
@@ -1657,11 +1657,86 @@
             <li>Viking helmet: attackspeed/missinghealth 0.4% -> 0.5%</li>
             <li>Block-19: max hp damage 1% -> 1.5%</li>
             
+           
+
           </ul>
-          <br><br>
-        </figure>
-      </div>
-    </div>
+          <br>
+          <h1>Second hotfix wave. Was not the plan at first to release this already, but dota update required attention, so may aswell get more done.</h1>
+          <ul>
+            <li>Fixed issues from the last dota patch</li>
+            <li>XP aura semi inner circle 13 -> 10, gold inner circle 12 -> 5, gold other two circles 6 -> 5</li>    
+            <li>Gold for killing leader 500 -> 250, bonus xp for killing leader 100 -> 50, bonus xp on kill non-leader 50 -> 0, assist bonus xp 25 -> 35</li>
+            <li>New respawn formula (6 + (your teams score /1.5))s, leading team no longer has a longer respawn time</li>
+            <li>Base damage standards have been made for all heroes</li>
+            <li>Shimakaze: turn rate 0.6 -> 0.9, dangerous sea int scaling 0.2 -> 0.3 (aghs 0.4 -> 0.6)</li>
+            <li>Slapper: base damage 13 -> 54</li>
+            <li>Stewart: Poelsevogn model changed (dota removed the old one ?? xd)</li>
+            <li>Prophecy: base damage 37 -> 42</li>
+            <li>Musashi: base damage 21 -> 57</li>
+            <li>Herobrine: attack range 125 -> 17 and base attackspeed 100 -> 110</li>
+            <li>Ryge: base attackspeed 100 -> 115, agi/level 1.3 -> 1.9, base agi 18 -> 21, hindbærsnitte trigger chance 12.5 15 17.5 20 -> 17.5 20 22.5 25</li>
+            <li>Mewtwo: base damage 26 -> 36, hyper beam range 600 700 800 -> 1000 1150 1300 (talent 800 -> 700) and damage talent 1500 -> 2000 and gives vision around laser and other issues fixes, psychic damage 250 300 350 400 -> 350 400 450 500, shadow ball mr reduction -20 -25 -30 -35 -> -30 -35 -40 -45, barrier radius 225 250 275 300 -> 250 300 350 400 (talent 175 -> 150)</li>
+            <li>Mette: base damage 25.5 -> 38 and base health 100 -> 170, minkocide int per mink 1 2 3 4 -> 1, cooldown 30 27 24 21 -> 30 26 22 18, mink base interval 15 -> 14 (lvl 25 talent -5 -> -2), mink hp scaling 3 4 5 6 -> 3 3.25 3.5 3.75 (talent 2.5 -> 1.25), mink damage scaling 0.5 0.75 1 1.25 -> 0.5 0.65 0.8 0.95 (talent 0.5 -> 0.35)</li>
+            <li>Marvelous: base damage 40 -> 51, BAT 1.7 -> 1.6, base agi 26 -> 28, koldblodet reptil agi dmg scaling 2.5 3 3.5 -> 2 2.1 2.2 and agi to hp scaling 7 10 14 -> 7 9 11</li>
+            <li>Margrethe: base damage 29 -> 56, livgarde base damage 40 45 50 55 60 65 -> 50 55 60 65 70 75 and hp scaling 0.35 0.4 0.45 0.5 0.55 0.6 -> 0.45 0.5 0.55 0.6 0.65 0.7 and damage scaling 0.5 0.55 0.6 0.65 0.7 0.75 -> 0.55 0.6 0.65 0.7 0.75 0.8, charge is maybe fixed? </li>
+            <li>Krogh: base damage 38 -> 53</li>
+            <li>Kim Larsen: gasolin stats 25 45 65 85 105 125 -> 20 35 50 65 80 95</li>
+            <li>Kaj: andrea blast damage 25 32 39 -> 40 46 52 and nuke damage 500 -> 800 and blast range 450 475 500 -> 500, popcorn range 500 550 600 650 -> 600 650 700 750, rap duration 1.5 1.75 2 2.25 -> 1.25 1.5 1.75 2 (talent 0.75 -> 0.5)</li>
+            <li>Kazuya: base damage 29 -> 61, inferno rage cost 80 75 70 -> 65 60 55</li>
+            <li>Lars: ansvarsfralæggelse duration 6 8 10 -> 5 6 7, skat now does the first tick instantly (still same max amount of ticks)</li>
+            <li>Harald: base damage 37 -> 48</li>
+            <li>Gametecher: base damage 24.5 -> 27</li>
+            <li>Caroline: base damage 10 -> 41, base range 600 -> 550, smash mana per attack 90 75 60 45 -> 60 55 50 45, range talent 75 -> 50, matchpoint now deals physical damage</li>
+            <li>Intruder: base int 15 -> 21, flashbang cd 20 19 18 17 -> 16 14 12 10 and damage 200 250 300 350 -> 250 300 350 400, remote charge damage 200 300 400 500 -> 300 400 500 600 and cooldown 16 14 12 10 -> 15 13 11 9</li>
+            <li>Nissan: drift damage: 30 45 60 75 -> 60 80 100 120 (talent 50 -> 80) and fixed collison issue</li>
+            <li>Baseboys: base damage 32 -> 40, base health 330 -> 270, gunpowder cooldown 30 28 26 24 -> 20 18 16 14 and bonus stats 50 75 100 125 -> 30 50 70 90</li>
+            <li>Urgot: base damage 11 -> 29, acid hunter mana cost 20 25 30 35 -> 35 30 25 20, base health 300 -> 200</li>
+            <li>Teemo: base damage 0.5 -> 25, toxic shot on hit scaling onhit 1.1 -> 0.4 0.5 0.7 0.8 and DOT scaling 0.35 -> 0.2 0.25 0.3 0.35, blinding dart scaling 3.6 -> 2.2 2.4 2.6 2.8, shroom scaling 0.6 -> 0.3 0.4 0.5 and damage 100 130 160 -> 80 105 130, mana cost changes, guerilla warfare wait time 1.5s -> 2s and taking damage resets the timer, move quick ms% 14 18 22 26 -> 15 17.5 20 22.5</li>
+            <li>Cid: Base ad 32 -> 46, base agility 1.5 -> 22 (was typo), base attackspeed 100 -> 110</li>
+            <li>Shadow: flyby attack range per ms 0.8 0.9 1 1.1 1.2 -> 0.5 0.6 0.7 0.8 0.9 and damage per ms 0.4 0.5 0.6 0.7 0.8 -> 0.3 0.35 0.4 0.45 0.5, aerial assault does no longer grant full damage immunity</li>
+            <li>Yahya: Køkkenkniv fixed but no longer cleaves, instead deals bonus damage based on targets max health, talents changed to reflect this, Omskaering fixed and now always keeps a bit of str (talent 8 changed slightly) and agi conversion ratio 1.5 1.75 2 -> 1 1.25 1.5, digtoplaesning radius 250 275 300 325 -> 325 350 375 400</li>    
+            <li>Flæskesteg: strength 85 -> 80 (Both flæskesteg items are in for a bigger rebalance next patch, this is just a bandaid)</li>
+            <li>Flæskesteg sovskartofler: strength 85 -> 80, hp 750 -> 400, magic resist 18% -> 15%</li>
+            <li>Roids: health regen -10 -> -20</li>
+            <li>Chinese xperimentals: str 125 -> 100, health regen -50 -> -100</li>
+            <li>Sovs med kartofler: magic resist 15% -> 12%</li>
+            <li>Hjemmeværnet: attackspeed 110 -> 75</li>
+            <li>Hummelshirt: Fixes gamecrashing/instakilling bug, damage reflected 150% -> 125%</li>
+            <li>Twisted bow: attack range 150 -> 125</li>
+            <li>Big rebalance for both flæskesteg, new visuals added for both, all damage cancels the passive now, not just hero damage:</li>
+          </ul>
+            <!--item-->
+       <div class="content_box_for_image">
+        <img src="https://raw.githubusercontent.com/Kroqh/Poelsemix/master/game/dota_addons/poelsemix/resource/flash3/images/items/flaeskesteg.png?raw=true"
+            class="content_box_actual_image_item">
+            <h1>Flæskesteg: <span class="newitemcolor">Rebalance</span> </h1>
+        </div>
+          <ul>
+            <li><b>PASSIVE:</b> healing percent 8% -> 5%</li>
+            <li>
+                Strength 85 -> 45<br>
+                Hp 350 -> 300</li>
+            </li>
+            <li> <b>PRICE:</b> 10400 -> 7300 </li>
+            <li><b>NEW RECIPE:</b> Heart + Vitality booster + Recipe (1100) </li>
+          </ul>
+              <br>
+         <!--item-->
+       <div class="content_box_for_image">
+        <img src="https://raw.githubusercontent.com/Kroqh/Poelsemix/master/game/dota_addons/poelsemix/resource/flash3/images/items/flaeskesteg_sovs_kartofler.png?raw=true"
+            class="content_box_actual_image_item">
+            <h1>Flæskesteg med sovs og kartofler: <span class="newitemcolor">Rebalance</span> </h1>
+        </div>
+          <ul>
+            <li><b>PASSIVE:</b> healing percent 10% -> 7.5%</li>
+            <li>
+                Strength 85 -> 55<br>
+                Hp 750 -> 350<br>
+                Magic resist 18% -> 15% </li>
+            </li>
+            <li> <b>PRICE:</b> 14150 -> 10050 </li>
+          </ul>
+        </div>
 
   <!--END OF CURRENT PATCH.-->
 
